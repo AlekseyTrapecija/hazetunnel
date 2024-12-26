@@ -1,6 +1,7 @@
 name: Release Tags
 
 on:
+  workflow_dispatch:
   release:
     types: [created]
 
